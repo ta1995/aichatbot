@@ -20,7 +20,7 @@ def classify(text):
 # CHANGE THIS to something you want your machine learning model to classify
 # while True:
     #question = input("제주도에 대해 궁금한 것을 물어봐 주세요>>")
-    question = st.text_input("제주도에 대해 궁금한 것을 물어봐 주세요>> ", "")
+question = st.text_input("제주도에 대해 궁금한 것을 물어봐 주세요>> ", "")
 
     #if question != "":
 if len(question)>0:    
