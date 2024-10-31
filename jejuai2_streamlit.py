@@ -24,8 +24,8 @@ while True:
 
     #if question != "":
     if len(question)>0:    
-        if (question == "나가기"):
-            break
+        #if (question == "나가기"):
+        #  break
 
         demo = classify(question)
         label = demo["class_name"]
